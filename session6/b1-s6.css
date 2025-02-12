@@ -1,0 +1,25 @@
+section {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.gioithieu {
+    background-color: #007bff;
+    color: white;
+    padding: 30px;
+}
+nav a {
+    margin: auto;
+    text-decoration: none;
+    padding-right:15px;
+    color: white;
+    font-weight: lighter;
+    ;
+}
+
+table{
+    background-color: white;
+}
