@@ -1,0 +1,62 @@
+/* b1: Thong so chung */
+*{
+    font-family:"Liter";
+    font-size: 20px;
+    color:rgb(28, 26, 26);
+}
+.ex6 h3{
+    font-size: 35px;
+}
+
+.ex6 .syntax{
+    color: #dc5078;
+}
+
+.ex6 .demo-figure{
+    border: 3px solid green;
+    text-align: center;
+    line-height: 4;
+}
+
+.ex6 .demo-code{
+    background-color: #e5e9ed;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.demo-code h4{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.demo-code .code-content{
+    background-color: white;
+    border-left: 3px solid green;
+    padding: 15px;
+}
+
+.code-content p:nth-child(1){
+    margin-top: 0;
+
+}
+.code-content p:nth-child(2){
+    margin-left: 20px;
+
+}
+.code-content p:nth-child(3){
+    margin-left: 20px;
+
+}
+.code-content p:nth-child(4){
+    margin-top: 0;
+
+}
+.button{
+    background-color: #03ac6c; 
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+}
