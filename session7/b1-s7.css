@@ -1,0 +1,37 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+section{
+  margin: 300px;
+  margin-top: 0;
+  background-color:#eaeaea;
+  padding: 20px;
+}
+section div h1{
+  text-align: center;
+ }
+.noidung{
+  padding-top: 10px;
+}
+.noidung td:nth-of-type(2){
+  padding-left: 5px;
+}
+.button{
+  text-align: center;
+  padding-top: 10px;
+}
+.button1{
+  background-color: red;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 7px;
+  color: white;
+}
+.button2{
+  padding: 10px;
+  margin-left: 20px;
+  border: 1px solid black;
+}
