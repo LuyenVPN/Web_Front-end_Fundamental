@@ -7,9 +7,13 @@
 }
 
 body {
+    margin: auto;
     display: flex;
     padding: 20px;
     background-color: #f9f9f9;
+}
+section {
+    margin: 0 auto; 
 }
 
 .main {
