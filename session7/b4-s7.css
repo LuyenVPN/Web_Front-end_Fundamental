@@ -1,39 +1,51 @@
-
-* {
+*{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: black;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-section {
+.post-container{
     width: 400px;
-    background-color: white;
-    padding: 20px;
-    
+    position: relative;
 }
 
-.title {
-    padding: 10px;
-    font-size: 18px;
+.post-container img{
+    width: 100%;
+}
+.post-container h3{
+    text-transform: uppercase; 
+    padding-left: 20px;
+    font-size: 28px;
+    margin-bottom: 20px;
     border-left: 5px solid orange;
 }
 
-.noidung {
-    position: relative;
-    width: 350px;
-    height: 450px;
-}
-
-.noidung p {
-    position: absolute;
-    bottom: 0;
-    color: white;
+.post-title{
     padding: 20px;
+    position: absolute;
+    top: 450px;
+    left: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,0) 0%, rgba(0,0,0,1) 0%, rgba(121,9,9,0) 100%);
+    
 }
 
-.sub {
-    padding: 15px;
-    font-size: 16px;
-    font-weight: bold;
-    border-bottom: 1px solid gray;
+.post-title a{
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+    
 }
+
+.post-container li{
+    padding: 10px;
+    border-bottom: 1px solid #060505;
+}
+ .post-container li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+ }
