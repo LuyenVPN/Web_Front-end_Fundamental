@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+section{
+  margin: 400px ;
+  margin-top: 0;
+  background-color: #50405e;
+  padding: 20px;
+}
+input{
+    background-color: #50405e;
+}
+textarea{
+    background-color: #50405e;
+
+}
+label{
+    color: white;
+}
+td{
+    padding: 10px;
+}
+textarea{
+    padding: 10px;
+}
+div{
+    padding: 10px;
+}
+button{
+   padding: 10px;
+}

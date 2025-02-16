@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+section{
+  margin: 400px ;
+  margin-top: 0;
+  background-color: #50405e;
+  padding: 20px;
+}
+.vien{
+    margin: 20px;
+    border-bottom: 5px solid red;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+td {
+    padding: 10px;
+    vertical-align: top; 
+    text-align: left; 
+  }
+  
+  .anh1, .anh2, .anh3{
+    width: 33.33%; 
+    background-color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+
+  
+  h5 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .nd {
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.4;
+  }
+  
+  button {
+    padding: 8px 16px;
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 0.8em;
+  }

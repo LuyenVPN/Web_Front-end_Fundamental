@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+section{
+  margin: 300px;
+  margin-top: 0;
+  background-color:#ffffff;
+  padding: 20px;
+  
+}
+p{
+  text-align: center;
+  font-size: 10px
+}
+span{
+  font-size: 14px;
+  text-align: auto;
+}
+h3{
+  text-align: center;
+  padding: 10px;
+}
+.button{
+  text-align: center;
+  padding-top: 10px;
+}
+td{
+  padding: 20px;
+}
+.vien{
+  border-left: 1px solid #eeeeee;"
+}
+button{
+  padding: 10px;
+  font-weight: bolder;
+}

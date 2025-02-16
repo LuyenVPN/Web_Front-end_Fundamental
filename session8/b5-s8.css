@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f9f9f9; /* Approximate background color */
+    color: #888; /* General Text Color */
+    text-align: center;
+  }
+  
+  .landing-section {
+    padding: 50px; /* Adjust padding as needed */
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 700px;  /* Limit description width */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .buttons {
+    margin-bottom: 40px;
+  }
+  
+  .download-button,
+  .learn-more-button {
+    display: inline-block;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  .download-button {
+    background-color: #428bca;
+    color: white;
+  }
+  
+  .learn-more-button {
+    border: 1px solid #ddd;
+    color: #777;
+  }
+  
+  .social-icons {
+    margin-bottom: 30px;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.5em;  /* Approximate size */
+    color: #aaa;
+    text-decoration: none;
+  }
+  
+  .credits {
+    font-size: 0.8em;
+  }
