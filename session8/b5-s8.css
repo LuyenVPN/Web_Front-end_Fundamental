@@ -1,13 +1,13 @@
 body {
     font-family: sans-serif;
     margin: 0;
-    background-color: #f9f9f9; /* Approximate background color */
-    color: #888; /* General Text Color */
+    background-color: #f9f9f9;
+    color: #888; 
     text-align: center;
   }
   
-  .landing-section {
-    padding: 50px; /* Adjust padding as needed */
+  section {
+    padding: 50px; 
   }
   
   h1 {
@@ -20,7 +20,7 @@ body {
     font-size: 1.1em;
     line-height: 1.6;
     margin-bottom: 30px;
-    max-width: 700px;  /* Limit description width */
+    max-width: 700px;  
     margin-left: auto;
     margin-right: auto;
   }
@@ -29,8 +29,8 @@ body {
     margin-bottom: 40px;
   }
   
-  .download-button,
-  .learn-more-button {
+  .download,
+  .learn-more {
     display: inline-block;
     padding: 12px 30px;
     text-decoration: none;
@@ -39,24 +39,24 @@ body {
     margin: 0 10px;
   }
   
-  .download-button {
+  .download {
     background-color: #428bca;
     color: white;
   }
   
-  .learn-more-button {
+  .learn-more {
     border: 1px solid #ddd;
     color: #777;
   }
   
-  .social-icons {
+  .icons {
     margin-bottom: 30px;
   }
   
-  .social-icon {
+  .icon {
     display: inline-block;
     margin: 0 15px;
-    font-size: 1.5em;  /* Approximate size */
+    font-size: 1.5em;  
     color: #aaa;
     text-decoration: none;
   }

@@ -6,13 +6,13 @@ body {
     text-align: center;
   }
   
-  .site-header {
+  .header {
     text-align: left;
     padding: 30px;
     margin-left: 10px;
   }
   
-  .site-header h1 {
+  .header h1 {
     margin: 0;
     color: #e74c3c;
     border-bottom: 2px solid #e74c3c;
@@ -40,7 +40,7 @@ body {
     box-sizing: border-box;
   }
   
-  .card-icon {
+  .icon {
     width: 80px;
     height: 80px;
     border: 1px solid #ddd;
@@ -51,18 +51,18 @@ body {
     margin-bottom: 15px;
   }
   
-  .card-icon img {
+  .icon img {
     max-width: 50%;
     max-height: 50%;
   }
   
-  .card-title {
+  .title {
     font-size: 1.2em;
     margin: 0 0 10px;
     color: #333;
   }
   
-  .card-description {
+  p {
     font-size: 0.9em;
     line-height: 1.4;
   }
