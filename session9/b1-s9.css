@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    padding: 100px;
+}
+p{
+    color: black;
+    background-color: #3498db;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

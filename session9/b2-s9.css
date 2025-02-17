@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cha{
+    background-color: #f1f1f1;
+    border: 2px solid black;
+    width: 100%;
+}
+.con{
+    display: flex;
+    gap: 50px;
+    margin: 50px;
+    
+}
+p{
+    background-color: #2ecc71;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    border-radius: 5px;
+    width: 260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
