@@ -1,68 +1,46 @@
-body {
-    font-family: sans-serif;
-    margin: 0;
-    background-color: #f8f8f8;
-    color: #666;
-    text-align: center;
-  }
-  
-  .header {
-    text-align: left;
-    padding: 30px;
-    margin-left: 10px;
-  }
-  
-  .header h1 {
-    margin: 0;
-    color: #e74c3c;
-    border-bottom: 2px solid #e74c3c;
-    display: inline-block;
-    padding-bottom: 5px;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  td {
-    width: 50%;
-    padding: 10px;
-    vertical-align: top;
-  }
-  
-  .card {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    text-align: left;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-  
-  .icon {
-    width: 80px;
-    height: 80px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 15px;
-  }
-  
-  .icon img {
-    max-width: 50%;
-    max-height: 50%;
-  }
-  
-  .title {
-    font-size: 1.2em;
-    margin: 0 0 10px;
-    color: #333;
-  }
-  
-  p {
-    font-size: 0.9em;
-    line-height: 1.4;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #3d4448;
+  font-size: 16px;
+}
+
+.service-container h3 {
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.service-container .horizontal-ruler {
+  width: 120px;
+  height: 2px;
+  background-color: orangered;
+  margin-bottom: 30px;
+}
+
+.service-container i {
+  font-size: 40px;
+  color: orangered;
+  text-align: center;
+  transform: translate(0%, 25%) rotate(-45deg);
+}
+
+.service-container table td {
+  padding: 30px;
+}
+
+.service-container table h5 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.service-container table .rotate-border {
+  border: 1px solid black;
+  /* padding: 20px; */
+  position: relative;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+  transform: rotate(45deg);
+}
