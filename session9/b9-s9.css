@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+.service-container .container:nth-of-type(1) .col{
+    background-color: brown;
+}
+.service-container .row{
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.service-container .row .col{
+    background-color: brown;
+    width: 33.33%;
+}
+.service-container .container{
+    margin: 20px;
+}
+
+.post-container{
+    background-image: url("https://photo.znews.vn/w660/Uploaded/mdf_uswreo/2024_11_29/dc884_17262004042678.06fe99d7.jpg");
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.post-container .tile{
+    position: absolute;
+    bottom: 120px;
+    left: 0;
+}
