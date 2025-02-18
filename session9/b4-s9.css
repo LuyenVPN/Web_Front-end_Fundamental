@@ -28,11 +28,12 @@ body {
     padding: 20px;
     margin-top: 20px; 
     margin-bottom: 0; 
-
+}
 .than {
     display: flex; 
     flex-grow: 1; 
     gap: 20px;
+}
 
 .than1 {
     background-color: #2ecc71;
@@ -48,3 +49,4 @@ body {
     text-align: center;
     padding: 20px;
     flex-grow: 1; 
+}
