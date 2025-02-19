@@ -1,0 +1,126 @@
+/* hsl(359.29deg 36.48% 45.69%) */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(180deg 2.04% 90.39%);
+}
+div{
+    background-color: hsl(359.29deg 36.48% 45.69%);
+    color:  hsl(180deg 2.04% 90.39%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.title{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 50px;
+    padding: 5px;
+    padding-right: 20px;
+    background-color: hsl(180deg 2.04% 90.39%);
+    margin-bottom: 10px;
+}
+h1{
+    background-color: hsl(180deg 2.04% 90.39%);
+    color: hsl(359.29deg 36.48% 45.69%);
+    font-size: 35px;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+i{
+    color: hsl(180deg 2.04% 90.39%);
+    background-color: hsl(359.29deg 36.48% 45.69%);
+    font-size: 25px;
+    padding: 5px;
+    height: 35px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+header div:nth-of-type(2){
+    height: 100px;
+}
+main, footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+.main, .child{
+    height: 150px;
+}
+@media screen and (min-width:768px) and (max-width:1200px) {
+    .title i{
+        display: none;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+    }
+    header div:nth-of-type(2){
+        width: 100%;
+    }
+    main div:nth-of-type(2){
+        height: 90px;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .child{
+        width: 49%;
+        flex-grow: 1;
+    }
+}
+ 
+@media screen and (min-width:1200px) {
+    .title i{
+        display: none;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+    }
+    header div:nth-of-type(2){
+        width: 100%;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+    .main{
+        height: 300px;
+    }
+    main .main:nth-of-type(1){
+        width: 67%;
+    }
+    main .main:nth-of-type(2){
+        width: 33%;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .child{
+        width: 32%;
+        flex-grow: 1;
+    }
+}
