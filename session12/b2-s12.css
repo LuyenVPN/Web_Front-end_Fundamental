@@ -1,0 +1,9 @@
+form{
+    padding: 100px;
+}
+.form-control{
+    margin-left: 10px;
+}
+.btn-primary{
+    background-color: #198754 !important;
+}
