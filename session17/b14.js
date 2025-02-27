@@ -1,0 +1,10 @@
+let radius= +prompt("Nhap ban kinh:");
+let height= +prompt("Nhap chieu cao:");
+let area= 2*Math.PI*radius*height;
+let area1= 2*Math.PI*radius*(radius+height);
+let volume= Math.PI*radius*radius*height;
+let circumference= 2*Math.PI*radius;
+alert("Dien tich xung quanh la: "+area.toFixed(2));
+alert("Dien tich toan phan la: "+area1.toFixed(2));
+alert("The tich hinh tru la: "+volume.toFixed(2));
+alert("Chu vi day la: "+circumference.toFixed(2));
