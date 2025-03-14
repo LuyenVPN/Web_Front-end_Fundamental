@@ -5,5 +5,4 @@ function timSoBiThieu(arr) {
     }
   }
 }
-
 console.log(timSoBiThieu([1, 2, 3, 5]));
