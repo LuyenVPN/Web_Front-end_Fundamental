@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng dụng Thời tiết</title>
+    <link rel="stylesheet" href="./b6.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Ứng dụng Thời tiết</h1>
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Nhập thành phố" value="Hồ Chí Minh">
+            <button onclick="getWeather()">Tìm kiếm</button>
+        </div>
+        <div class="weather-box" id="weatherBox">
+            <h2 id="cityName">Hồ Chí Minh</h2>
+            <div class="weather-details">
+                <img src="https://png.pngtree.com/png-clipart/20210710/ourmid/pngtree-summer-cute-element-cartoon-sun-png-image_3551117.jpg"
+                    alt="Weather Icon" id="weatherIcon">
+                <div class="temperature" id="temperature">32°C</div>
+                <div class="details">
+                    <p>Độ ẩm: <span id="humidity">75%</span></p>
+                    <p>Tốc độ gió: <span id="windSpeed">7 km/h</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./b6.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+#container {
+    display: flex;
+
+}
+img{
+    height: 286.67px;
+}
+#search {
+    width: 600px;
+    border-radius: 5px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#searchProduct {
+    border-radius: 5px;
+    background-color: #198754;
+    color: white;
+    padding-bottom: 5px;
+}
+#bieuMau{
+    display: flex;
+    margin-top: 10px;
+    gap: 5px;
+}
