@@ -1,0 +1,87 @@
+body {
+    background-color: #332446;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h2 {
+    color: white;
+    background-color: #191223;
+    padding: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    color: white;
+    background-color: #191223;
+    padding: 10px;
+    margin: 10px;
+}
+.addbookmark {
+    color: white;
+    background-color: #7c59b0;
+    margin: 100px 100px 0px 100px;
+    cursor: pointer;
+}
+.title{
+    color: white;
+    width: calc(100% - 40px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px ;
+}
+.content{
+    color: #7c59b0;
+    background-color: white;
+    width: calc(100% - 40px);
+    padding: 20px;
+}
+input{
+    margin-bottom: 10px;
+    width: 100% ;
+}
+button{
+    background-color: #7c59b0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+button:hover{
+    background-color: #5c3f7f;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+li a , li button{
+    color: white;
+    background-color: #191223;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+li button{
+    background-color: #191223;
+    font-size: 10px;
+    padding-bottom: 20px;
+}
