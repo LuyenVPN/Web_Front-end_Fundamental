@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #fafafa;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+        }
+        #food1, #food2, #food3 {
+            background-color: white;
+            display: flex;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 15px;
+        }
+        .imgFood {
+            width: 200px;
+            height: 200px;
+        }
+        .imgFood img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+        .title {
+            margin-left: 20px;
+        }
+        button {
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bạn thích món ăn nào nhất?</h1>
+    <div id="food1">
+        <div class="imgFood">
+            <img src="https://cdn.xanhsm.com/2025/01/073b2c34-bun-bo-ngon-sai-gon-1-min.jpg" alt="ảnh-lỗi">
+        </div>
+        <div class="title">
+            <h2>Bún Bò</h2>
+            <p><span id="love1">0</span> lượt thích</p>
+            <button id="btn1">Thích +1</button>
+        </div>
+    </div>
+    <div id="food2">
+        <div class="imgFood">
+            <img src="https://cdn.eva.vn/upload/3-2023/images/2023-07-10/cach-lam-banh-da-nem-gion-rum-thom-ngon-dung-vi-truyen-thong-8-1688955517-458-width700height467.jpg" alt="ảnh-lỗi">
+        </div>
+        <div class="title">
+            <h2>Bánh Da Nem</h2>
+            <p><span id="love2">0</span> lượt thích</p>
+            <button id="btn2">Thích +1</button>
+        </div>
+    </div>
+    <div id="food3">
+        <div class="imgFood">
+            <img src="https://i-giadinh.vnecdn.net/2024/11/19/Bc6Thnhphm6-1732011665-9702-1732011821.jpg" alt="ảnh-lỗi">
+        </div>
+        <div class="title">
+            <h2>Sườn Chua Ngọt</h2>
+            <p><span id="love3">0</span> lượt thích</p>
+            <button id="btn3">Thích +1</button>
+        </div>
+    </div>
+    <script src="./b2.js"></script>
+</body>
+</html>
